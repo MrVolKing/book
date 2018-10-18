@@ -1,0 +1,213 @@
+extends ../template
+
+block varibles
+    - var title = "Main"
+
+block content
+   
+    .content
+        #fullpage
+                                                        
+            section.bgblock.screen1.section
+                .wrapper
+                    include ../common/header.pug
+                    .screen1__content
+                        .left
+                            .left__img
+                                img(src="./images/book.png", alt="") 
+
+                        .right
+                            .right__title
+                                p Лингвистический интеллект
+                            .right__minititle
+                                p Феликс Морозовский, Сергей Соловьев
+                            .right__description
+                                p Лингвистический интеллект – это книга о том, как сделать из обычных слов точные инструменты, с помощью которых вы сможете достичь своих целей. Эта книга поможет вам сэкономить время, которое вы ежедневно тратите на коммуникацию. Вы научитесь быстрее находить смысл в словах собеседника, и формулировать свои мысли таким образом, чтобы вас понимали однозначно. Мы живем в таком мире, где неточное отношение к словам всё еще общепринято. Значит, у вас есть возможность быть в числе первых, кто получит преимущество. Если вы задумывались о том, почему люди понимают слова по-разному, почему возникает недопонимание даже если люди говорят на одном языке и как решить эту проблему – эта книга для вас. 
+
+                            .right__descriptionbottom
+                                .right__left
+                                    p
+                                    .button(type="button") 
+                                        span Заказать
+                                .right__right
+                                    .slider 
+                                        .swiper-container
+                                            .swiper-wrapper
+                                                .swiper-slide
+                                                    .slider__title
+                                                        p Для руководителей
+                                                    .slider__text   
+                                                        p Вы теряете деньги и время, когда ставите задачу, которую выполняют не тем способом или с другим результатом. Если у вас были такие ситуации – эта книга для вас.
+                                                    //- ol.slider__list
+                                                    //-     li &ensp;Далеко-далеко за словесными &ensp;&ensp; &ensp;&ensp;&nbsp;горами в стране гласных и &ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&ensp; &ensp;&ensp;&nbsp;согласных живут рыбные тексты. 
+                                                    //-     li &ensp;Вдали от всех живут они в &ensp;&ensp;&ensp;&nbsp;&ensp;&ensp; &ensp;&ensp;&nbsp;&nbsp;буквенных домах на берегу 
+                                                    //-     li &ensp;Семантика большого языкового &ensp;&ensp;&nbsp;&nbsp;океана.
+                                                    //- .swiper-pagination 
+                                                .swiper-slide
+                                                    .slider__title
+                                                        p Для менеджеров проектов
+                                                    .slider__text
+                                                        p Лингвистический интеллект поможет вам научиться быстро создавать точные формулировки заданий, что сэкономит вам время и деньги.
+                                                    //- ol.slider__list
+                                                    //-     li &ensp;Далеко-далеко за словесными &ensp;&ensp; &ensp;&ensp;&nbsp;горами в стране гласных и &ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&ensp; &ensp;&ensp;&nbsp;согласных живут рыбные тексты. 
+                                                    //-     li &ensp;Вдали от всех живут они в &ensp;&ensp;&ensp;&nbsp;&ensp;&ensp; &ensp;&ensp;&nbsp;&nbsp;буквенных домах на берегу 
+                                                    //-     li &ensp;Семантика большого языкового &ensp;&ensp;&nbsp;&nbsp;океана. 
+                                                    //- .swiper-pagination
+                                                .swiper-slide
+                                                    .slider__title
+                                                        p Для менеджеров по продажам
+                                                    .slider__text
+                                                        p Клиенты не покупают, если мы не смогли их заинтересовать. Эта книга поможет вам быстро находить смысл в словах собеседника и создавать формулировки, точно передающие то, что вы на самом деле хотели сказать.
+                                                    //- ol.slider__list
+                                                    //-     li &ensp;Далеко-далеко за словесными &ensp;&ensp; &ensp;&ensp;&nbsp;горами в стране гласных и &ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&ensp; &ensp;&ensp;&nbsp;согласных живут рыбные тексты. 
+                                                    //-     li &ensp;Вдали от всех живут они в &ensp;&ensp;&ensp;&nbsp;&ensp;&ensp; &ensp;&ensp;&nbsp;&nbsp;буквенных домах на берегу 
+                                                    //-     li &ensp;Семантика большого языкового &ensp;&ensp;&nbsp;&nbsp;океана. 
+                                                    //- .swiper-pagination
+                                                .swiper-slide
+                                                    .slider__title
+                                                        p Для HR менеджеров
+                                                    .slider__text
+                                                        p Конфликтные ситуации часто возникают из за недопонимания. Эта книга поможет вам результативно решать конфликты из за недопонимания между сотрудниками.
+                                                .swiper-slide
+                                                    .slider__title
+                                                        p Для преподавателей
+                                                    .slider__text
+                                                        p Эта книга поможет вам результативно объяснять сложные вещи простыми словами.
+                                                .swiper-slide
+                                                    .slider__title
+                                                        p Для студентов
+                                                    .slider__text
+                                                        p Знание одного принципа избавляет от необходимости заучивать тысячи фактов. В этой книге вы узнаете о принципе, который значительно сократит ваше время на обучение.
+                                            .swiper-pagination
+
+                        .blockorder
+                            .blockorder__title
+                                p Пополнить багаж знаний
+                            .blockorder__icn
+                                img(src="./images/iconorder.png", alt="")
+                            .blockorder__button
+                                button
+                                    span Заказать
+
+                        .img1
+                            img(src="./images/img1.png", alt="")
+                        .img2
+                            img(src="./images/img2.png", alt="")
+                        .clock
+                            img(src="./images/clock.png", alt="") 
+                        .shadowclock
+                            img(src="./images/shadowclock.png", alt="")
+                                        
+                    include ../common/footer.pug
+
+                                                                                      
+            section.bgblock.screen2.section
+                .wrapper
+                    include ../common/header.pug
+                    .screen2__content
+                        .screen2__blockblocks
+                            .blockitem
+                                .blockitem__foto
+                                    img(src="./images/foto1.png", alt="")
+                                .blockitem__text
+                                    p Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены 
+                                .blockitem__name
+                                    p Борис Бурда
+                                .blockitem__description 
+                                    p фотограф, 59 лет
+                            .blockitem
+                                .blockitem__foto
+                                    img(src="./images/foto2.png", alt="")
+                                .blockitem__text
+                                    p Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены 
+                                .blockitem__name
+                                    p Инокентий
+                                .blockitem__description 
+                                    p писатель, 26 лет
+                            .blockitem
+                                .blockitem__foto
+                                    img(src="./images/foto3.png", alt="")
+                                .blockitem__text
+                                    p Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены 
+                                .blockitem__name
+                                    p Иван
+                                .blockitem__description 
+                                    p писатель, 26 лет
+                        .blockorder
+                            .blockorder__title
+                                p Пополнить багаж знаний
+                            .blockorder__icn
+                                img(src="./images/iconorder.png", alt="")
+                            .blockorder__button
+                                button
+                                    span Заказать
+
+                        .img1
+                            img(src="./images/img1.png", alt="")
+                        .img2
+                            img(src="./images/img2.png", alt="")
+                        .dictaphone
+                            img(src="./images/dictaphone.png", alt="")
+                    include ../common/footer.pug
+                
+                                                                           
+            section.bgblock.screen3.section
+                .wrapper
+                    include ../common/header.pug
+                    .screen3__content
+                        .screen3__blockblocks
+                            .blockitem
+                                .blockitem__foto
+                                    img(src="./images/foto4.png", alt="")
+                                .blockitem__text
+                                    p Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. 
+                                .blockitem__name
+                                    p Ольга
+                                .blockitem__description 
+                                    p фотограф, 29 лет
+                            .blockitem
+                                .blockitem__foto
+                                    img(src="./images/foto5.png", alt="")
+                                .blockitem__text
+                                    p Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. 
+                                .blockitem__name
+                                    p Инна
+                                .blockitem__description 
+                                    p писатель, 26 лет
+                        .blockorder
+                            .blockorder__title
+                                p Пополнить багаж знаний
+                            .blockorder__icn
+                                img(src="./images/iconorder.png", alt="")
+                            .blockorder__button
+                                button
+                                    span Заказать
+
+                        .img1
+                            img(src="./images/img1.png", alt="")
+                        .img2
+                            img(src="./images/img2.png", alt="")
+                        .notes
+                            img(src="./images/notes.png", alt="")
+                    include ../common/footer.pug
+            
+                                                                                    
+            section.bgblock.screen4.section
+                .wrapper
+                    include ../common/header.pug
+                    .screen4__content
+                        .blockorder
+                            .blockorder__title
+                                p Пополнить багаж знаний
+                            .blockorder__icn
+                                img(src="./images/iconorder.png", alt="")
+                            .blockorder__button
+                                button
+                                    span Заказать
+
+                        .img1
+                            img(src="./images/img1.png", alt="")
+                        .img2
+                            img(src="./images/img2.png", alt="")
+                    include ../common/footer.pug
+            

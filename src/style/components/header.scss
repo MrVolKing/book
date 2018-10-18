@@ -1,0 +1,29 @@
+.hoadercontent{
+    position: relative;
+    border-bottom: 2px solid  #f1f2f4;
+    padding: 18px 0 14px 0;
+    .menu{
+        display: flex;
+        padding-left: 51px;
+        &__paragraph{
+            margin-right: 72px;
+            a{
+                color: #35505f;
+                font-size: 18px;
+                font-weight: 700;
+                transition: 0.2s;
+    
+            }
+            a:hover{
+                color: $buttoncolor;
+                transition: 0.2s;
+            }
+        }
+    }
+    .pan{
+        position: absolute;
+        left: -52px;
+        bottom: -30px;
+    }
+}
+

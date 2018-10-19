@@ -89,6 +89,7 @@
             &__title{
                 padding-right: 330px;
                 margin-bottom: 14px;
+                text-align: center;
                 p{
                     color: #303030;
                     font-size: 36px;
@@ -98,6 +99,7 @@
             }
             &__minititle{
                 margin-bottom: 51px;
+                margin-top: 40px;
                 p{
                     color: #90979e;
                     font-size: 22px;
@@ -116,8 +118,16 @@
                 display: flex;
 
             }
-            &__left, &__right{
-                // width: 50%;
+            &__left{
+                p{
+                    margin-bottom: 12px;
+                }
+                span{
+                    span{
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                }
             }
             &__right{
                 
@@ -142,7 +152,7 @@
                     }
                     &__text{
                         padding: 0 30px;
-                        text-align: center;
+                        // text-align: center;
                         p{
                             color: #435866;
                             font-size: 16px;
@@ -160,6 +170,26 @@
                     .swiper-pagination-bullet-active{
                         background-color: $buttoncolor;
                     }
+                    .swiper-button-prev{
+                        position: absolute;
+                        bottom: 144px;
+                        width: 14px;
+                        height: 14px;
+                        left: 5px;
+                        background-image: url(../images/back.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .swiper-button-next{
+                        position: absolute;
+                        bottom: 144px;
+                        width: 14px;
+                        height: 14px;
+                        right: 5px;
+                        background-image: url(../images/right-arrow.png);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
                     // &__list{
                     //     padding: 0 31px 0 28px;
                     //     list-style-type: none; /* Убираем исходные маркеры */
@@ -174,7 +204,7 @@
                 }
             }
             .button{
-                margin-top: 20px;
+                margin-top: 31px;
                 width: 230px;
                 height: 59px;
                 border-radius: 30px;

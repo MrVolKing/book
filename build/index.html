@@ -7,20 +7,9 @@
     <meta content="" name="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta content="ie-edge" http-equiv="x-ua-compatible">
-    <link rel="stylesheet" href="./styles/app.min.css?1">
-    <script src="./scripts/app.js?" defer></script><script src="./dist/js/jquery1-3.2.1.min.js?1"></script> 
-<script type="text/javascript" src="./dist/js/slick.js?1"></script>
-<link rel="stylesheet" href="./dist/css/slick.css?1">
-<link rel="stylesheet" href="./dist/css/slick-theme.css?1">
-<link rel="stylesheet" href="./dist/css/swiper.css?1">
-<script src="./dist/js/swiper.min.js?1"></script>
-<link rel="stylesheet" href="./dist/css/photoswipe.css?1">
-<link rel="stylesheet" href="./dist/css/default-skin.css?1">
-<script src="./dist/js/photoswipe.min.js?1"></script>
-<script src="./dist/js/photoswipe-ui-default.min.js?1"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.js?1"></script>
-<script src="./dist/js/masonry.pkgd.min.js?1"></script>
-<script src="./dist/js/main.js?1"></script> 
+    <link rel="stylesheet" href="./styles/app.min.css?2">
+    <script src="./scripts/app.js?2" defer></script><link rel="stylesheet" href="./dist/css/swiper.css?2">
+<script src="./dist/js/swiper.min.js?2"></script>
   </head>
   <body>
     <div class="content">
@@ -40,7 +29,7 @@
             </header>
             <div class="screen1__content">
               <div class="left">
-                <div class="left__img"><img src="./images/book.png" alt=""></div>
+                <div class="left__img"><img src="./images/cover.png" alt=""></div>
               </div>
               <div class="right">
                 <div class="right__title">
@@ -50,14 +39,12 @@
                   <p>Феликс Морозовский, Сергей Соловьев</p>
                 </div>
                 <div class="right__description">
-                  <p>Лингвистический интеллект – это книга о том, как сделать из обычных слов точные инструменты, с помощью которых вы сможете достичь своих целей.</p>
-                  <p>Эта книга поможет вам сэкономить время, которое вы ежедневно тратите на коммуникацию. Вы научитесь быстрее находить смысл в словах собеседника, и формулировать свои мысли таким образом, чтобы вас понимали однозначно.</p>
-                  <p>Мы живем в таком мире, где неточное отношение к словам всё еще общепринято. Значит, у вас есть возможность быть в числе первых, кто получит преимущество. </p>
+                  <p>Лингвистический интеллект – это книга о том, как сделать из обычных слов точные инструменты, с помощью которых вы сможете достичь своих целей. Эта книга поможет вам сэкономить время, которое вы ежедневно тратите на коммуникацию. Вы научитесь быстрее находить смысл в словах собеседника, и формулировать свои мысли таким образом, чтобы вас понимали однозначно. Мы живем в таком мире, где неточное отношение к словам всё еще общепринято. Значит, у вас есть возможность быть в числе первых, кто получит преимущество. </p>
                 </div>
                 <div class="right__descriptionbottom">
                   <div class="right__left">
                     <p>Если вы задумывались о том, почему люди понимают слова по-разному, почему возникает недопонимание даже если люди говорят на одном языке и как решить эту проблему – эта книга для вас. </p><span>Цена: <span>300 грн.</span></span>
-                    <div class="button" type="button"> <span>Заказать</span></div>
+                    <div class="button elem" id="btn1" type="button"> <span>Заказать</span></div>
                   </div>
                   <div class="right__right">
                     <div class="slider"> 
@@ -81,7 +68,7 @@
                           </div>
                           <div class="swiper-slide">
                             <div class="slider__title">
-                              <p>Для менеджеров по продажам</p>
+                              <p>Для sales менеджеров</p>
                             </div>
                             <div class="slider__text">
                               <p>Клиенты не покупают, если мы не смогли их заинтересовать. Эта книга поможет вам быстро находить смысл в словах собеседника и создавать формулировки, точно передающие то, что вы на самом деле хотели сказать.</p>
@@ -126,17 +113,33 @@
                 </div>
                 <div class="blockorder__icn"><img src="./images/iconorder.png" alt=""></div>
                 <div class="blockorder__button">
-                  <button><span>Заказать</span></button>
+                  <button id="btn2"><span>Заказать</span></button>
                 </div>
               </div>
               <div class="img1"><img src="./images/img1.png" alt=""></div>
               <div class="img2"><img src="./images/img2.png" alt=""></div>
-              <div class="clock"><img src="./images/clock.png" alt=""></div>
+              <div class="clock"><img src="./images/clock.png" alt="">
+                <div class="tooltip1"> 
+                  <div class="tooltip1__arrow">
+                    <p>«</p>
+                  </div>
+                  <div class="tooltip1__top">
+                    <p>«Два раза в неделю, в одном и том же кафе, в 9:30, мы завтракали, спорили, обсуждали определения и как это можно использовать. Все эти два года, с 9:30 до 11:30 у меня в календаре было записано: “Работа над книгой”. Летом или зимой, в 9:30 я уже был на месте. У Сергея был план встречи, он задавал вопросы, мы их обсуждали.»</p>
+                  </div>
+                  <div class="tooltip1__bottom">
+                    <div class="foto"></div>
+                    <div class="desc">
+                      <p>Феликс Морозовский</p>
+                      <p>—  автор</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="shadowclock"><img src="./images/shadowclock.png" alt=""></div>
             </div>
             <footer class="footercontent">
               <div class="block1">
-                <p>Copyright 2018 © Название книги. Все права защищены</p>
+                <p>Copyright 2018 © Лингвистический Интеллект. Все права защищены</p>
               </div><a class="block2 siz1" href="#">
                 <div class="block2__blockimg"><img src="./images/fb.png" alt=""></div>
                 <div class="block2__textblock">
@@ -214,16 +217,32 @@
                 </div>
                 <div class="blockorder__icn"><img src="./images/iconorder.png" alt=""></div>
                 <div class="blockorder__button">
-                  <button><span>Заказать</span></button>
+                  <button id="btn3"><span>Заказать</span></button>
                 </div>
               </div>
               <div class="img1"><img src="./images/img1.png" alt=""></div>
               <div class="img2"><img src="./images/img2.png" alt=""></div>
-              <div class="dictaphone"><img src="./images/dictaphone.png" alt=""></div>
+              <div class="dictaphone"><img src="./images/dictaphone.png" alt="">
+                <div class="tooltip1 tooltip2">
+                  <div class="tooltip1__arrow">
+                    <p>«</p>
+                  </div>
+                  <div class="tooltip1__top">
+                    <p>«Первые шесть месяцев работы, каждую нашу встречу с Феликсом я записывал на диктофон. Затем, несколько часов я тратил на то, чтобы послушать всё это еще раз и выписать то, что можно было использовать в книге. На диктофоне сохранилось примерно 100 часов наших с Феликсом диалогов. Все эти диалоги стали основой, из которых появилась книга.»</p>
+                  </div>
+                  <div class="tooltip1__bottom">
+                    <div class="foto foto_bg2"></div>
+                    <div class="desc">
+                      <p>Сергей Соловьев </p>
+                      <p>—  автор</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <footer class="footercontent">
               <div class="block1">
-                <p>Copyright 2018 © Название книги. Все права защищены</p>
+                <p>Copyright 2018 © Лингвистический Интеллект. Все права защищены</p>
               </div><a class="block2 siz1" href="#">
                 <div class="block2__blockimg"><img src="./images/fb.png" alt=""></div>
                 <div class="block2__textblock">
@@ -263,7 +282,7 @@
                   <div class="blockitem__text">
                     <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. </p>
                   </div>
-                  <div class="blockitem__name">
+                  <div class="blockitem__name elem">
                     <p>Ольга</p>
                   </div>
                   <div class="blockitem__description"> 
@@ -289,16 +308,33 @@
                 </div>
                 <div class="blockorder__icn"><img src="./images/iconorder.png" alt=""></div>
                 <div class="blockorder__button">
-                  <button><span>Заказать</span></button>
+                  <button id="btn4"><span>Заказать</span></button>
                 </div>
               </div>
               <div class="img1"><img src="./images/img1.png" alt=""></div>
               <div class="img2"><img src="./images/img2.png" alt=""></div>
-              <div class="notes"><img src="./images/notes.png" alt=""></div>
+              <div class="notes"><img src="./images/notes.png" alt="">
+                <div class="tooltip1 tooltip3">
+                  <div class="tooltip1__arrow">
+                    <p>«</p>
+                  </div>
+                  <div class="tooltip1__top">
+                    <p>«Расшифровка диалогов превратилась примерно в 1000 разрозненных страниц черновиков, из которых должна была появиться книга. На поиск нужной формы ушел примерно год. Появилась структура, оглавление, черновик книги. Из черновиков было убрано всё лишнее. Объем черновика сократился до 200, потом до 120 страниц.</p>
+                    <p>Книга не обязательно должна быть объемной, но обязательно должна быть полезной и понятно для читателя. Чтобы объяснить сложные вещи простыми словами, много слов не нужно.»</p>
+                  </div>
+                  <div class="tooltip1__bottom">
+                    <div class="foto foto_bg2"></div>
+                    <div class="desc">
+                      <p>Сергей Соловьев </p>
+                      <p>—  автор</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <footer class="footercontent">
               <div class="block1">
-                <p>Copyright 2018 © Название книги. Все права защищены</p>
+                <p>Copyright 2018 © Лингвистический Интеллект. Все права защищены</p>
               </div><a class="block2 siz1" href="#">
                 <div class="block2__blockimg"><img src="./images/fb.png" alt=""></div>
                 <div class="block2__textblock">
@@ -338,15 +374,32 @@
                 </div>
                 <div class="blockorder__icn"><img src="./images/iconorder.png" alt=""></div>
                 <div class="blockorder__button">
-                  <button><span>Заказать</span></button>
+                  <button id="btn5"><span>Заказать</span></button>
                 </div>
               </div>
               <div class="img1"><img src="./images/img1.png" alt=""></div>
               <div class="img2"><img src="./images/img2.png" alt=""></div>
+              <div class="coffee"><img src="./images/coffee.png" alt="">
+                <div class="tooltip1 tooltip4 tooltip2">
+                  <div class="tooltip1__arrow">
+                    <p>«</p>
+                  </div>
+                  <div class="tooltip1__top">
+                    <p>«Я посчитал, что мы выпили 384 чашки кофе во время наших утренних встреч. Иногда, к нашей встрече присоединились друзья и знакомые, которым было интересно над чем мы работаем. В какой-то момент, всё это превратилось в небольшой клуб людей, которым интересно позавтракать вместе, выпить чашечку кофе и обсудить новую главу книги. .»</p>
+                  </div>
+                  <div class="tooltip1__bottom">
+                    <div class="foto"></div>
+                    <div class="desc">
+                      <p>Феликс Морозовский</p>
+                      <p>—  автор</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <footer class="footercontent">
               <div class="block1">
-                <p>Copyright 2018 © Название книги. Все права защищены</p>
+                <p>Copyright 2018 © Лингвистический Интеллект. Все права защищены</p>
               </div><a class="block2 siz1" href="#">
                 <div class="block2__blockimg"><img src="./images/fb.png" alt=""></div>
                 <div class="block2__textblock">
@@ -366,6 +419,133 @@
             </footer>
           </div>
         </section>
+        <div class="popapwrapblock orderbig" id="openmodal1">
+          <div class="popap">
+            <div class="popap__title">
+              <p>В настоящий момент книга доступна только в режиме предзаказа. Ожидаемая дата релиза книги<span>20.02.2018</span></p>
+            </div>
+            <form class="popap__blockblocks">
+              <div class="blockitem">
+                <div class="blockitem__title">
+                  <p>откуда вы?</p>
+                </div>
+                <input type="text" placeholder="Страна" required>
+                <input type="text" placeholder="Город" required>
+                <input type="text" placeholder="Улица" required>
+                <input type="text" placeholder="Дом/квартира" required>
+              </div>
+              <div class="blockitem">
+                <div class="blockitem__title">
+                  <p>Ваши контакты</p>
+                </div>
+                <input type="text" placeholder="Имя" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="tel" placeholder="Телефон" required>
+                <button id="btn_submit" type="submit" required><span>→</span></button>
+              </div>
+            </form>
+            <div class="popap-close" id="close1"><a href="#close" title="close"><img src="./images/close.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="popapwrapblock ordersmal" id="openmodal3">
+          <div class="popap">
+            <div class="popap__title">
+              <p>Спасибо за проявленный интерес!</p>
+            </div>
+            <div class="popap__text">
+              <p>Мы выслали ознакомительный фрагмент книги на вашу электронную почту. </p>
+            </div>
+            <div class="popap__button">
+              <button> <span>ОК</span></button>
+            </div>
+            <div class="popap__igm"><img src="./images/popapimg1.png" alt=""></div>
+            <div class="popap-close" id="close3"><a href="javascript: void(0);" title="close"><img src="./images/close.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="popapwrapblock ordersmal" id="openmodal2">
+          <div class="popap">
+            <div class="popap__title popap__title_siz">
+              <p>Спасибо!</p>
+            </div>
+            <div class="popap__text">
+              <p>Мы свяжемся с вами в ближайшее время для подтверждения заказа. </p>
+            </div>
+            <div class="popap__button">
+              <button id="btn_ok"><span>ОК</span></button>
+            </div>
+            <div class="popap__img2"><img src="./images/popapimg2.png" alt=""></div>
+            <div class="popap__img3"></div>
+            <div class="popap-close" id="close2"><a href="javascript: void(0);" title="close"><img src="./images/close.png" alt=""></a></div>
+          </div>
+        </div>
+        <script>
+          const btn1 = document.getElementById('btn1');
+          const btn2 = document.getElementById('btn2');
+          const btn3 = document.getElementById('btn3');
+          const btn4 = document.getElementById('btn4');
+          const btn5 = document.getElementById('btn5');
+          const btn_submit = document.getElementById('btn_submit');
+          const btn_ok = document.getElementById('btn_ok');
+          const openmodal1 = document.getElementById('openmodal1');
+          const openmodal2 = document.getElementById('openmodal2');
+          const close1 = document.getElementById('close1');
+          const close2 = document.getElementById('close2');
+          
+          
+          btn1.addEventListener('click', function () {
+              openmodal1.classList.add('popapwrapblockvisibke')
+          });
+          
+          btn2.addEventListener('click', function () {
+              openmodal1.classList.add('popapwrapblockvisibke')
+          });
+          
+          btn3.addEventListener('click', function () {
+              openmodal1.classList.add('popapwrapblockvisibke')
+          });
+          
+          btn4.addEventListener('click', function () {
+              openmodal1.classList.add('popapwrapblockvisibke')
+          });
+          
+          btn5.addEventListener('click', function () {
+              openmodal1.classList.add('popapwrapblockvisibke')
+          });
+          
+          btn_submit.addEventListener('click', function () {
+              //- event.preventDefault();
+              //- openmodal2.classList.add('popapwrapblockvisibke');
+              //- openmodal1.classList.remove('popapwrapblockvisibke')
+          });
+          
+          btn_ok.addEventListener('click', function () {
+              openmodal2.classList.remove('popapwrapblockvisibke')
+          });
+          
+          close1.addEventListener('click', function () {
+              openmodal1.classList.remove('popapwrapblockvisibke');
+          });
+          
+          close2.addEventListener('click', function () {
+              openmodal2.classList.remove('popapwrapblockvisibke');
+          });
+          
+          
+          //- $(document).ready (function ( ) {
+          
+          //-     $('.elem').click(function() {
+          //-         //- $('.popapwrapblock').fadeIn(300);
+          //-         $('body').css('overflow','hidden');
+          //-         $('.elem').css('color','red');
+          //-     });
+          
+          //-     $('.popap-close').click(function(){
+          //-         $('.popapwrapblock').css('display', 'none');
+          //-         $('body').css('overflow','visible');
+          //-     });
+          
+          //- });
+        </script>
       </div>
     </div>
   </body>

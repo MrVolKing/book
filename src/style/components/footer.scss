@@ -1,6 +1,6 @@
 .footercontent{
     border-top: 2px solid  #f1f2f4;
-    height: 59px;
+    height: em(59);
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -9,31 +9,55 @@
     justify-content: space-between;
     font-size: 14px;
     .siz1, .siz2{
-        width: 297px;
+        width: em(297);
+    }
+    .siz1{
+        img{
+            width: em(30);
+            height: em(30);
+        }
+    }
+    .siz2{
+        img{
+            width: em(28);
+            height: em(30);
+        }
     }
     .siz3{
-        width: 274px;
+        img{
+            width: em(31);
+            height: em(21);
+        }
+    }
+    .siz3{
+        width: em(274);
     }
     .block1{
-        padding: 20px 0 20px 33px;
-        width: 489px;
+        padding: em(20) 0 em(20) em(33);
+        width: em(489);
+        line-height: em(13);
+        p{
+            font-size: em(12);
+            font-weight: 400;
+            
+        }
     }
     .block2{
         border-left: 2px solid #f1f2f4;
         display: flex;
-        padding: 12px 0 15px 25px;
+        padding: em(12) 0 em(15) em(25);
+        line-height: em(17);
         p:first-child{
-            font-size: 14px;
+            font-size: em(14);
             font-weight: 400;
-            line-height: 17px;
             font-weight: 400;
             color: #303030;
             transition: 0.2s;
         }
         p:last-child{
-            font-size: 14px;
+            font-size: em(14);
             font-weight: 400;
-            line-height: 12px;
+            line-height: em(13);
             font-weight: 700;
             color: #303030;
             transition: 0.2s;
@@ -52,7 +76,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin-left: 12px;
+            margin-left: em(12);
         }
     }
     .block2:hover{

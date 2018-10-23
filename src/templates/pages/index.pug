@@ -14,7 +14,7 @@ block content
                     .screen1__content
                         .left
                             .left__img
-                                img(src="./images/book.png", alt="") 
+                                img(src="./images/cover.png", alt="") 
 
                         .right
                             .right__title
@@ -22,9 +22,7 @@ block content
                             .right__minititle
                                 p Феликс Морозовский, Сергей Соловьев
                             .right__description
-                                p Лингвистический интеллект – это книга о том, как сделать из обычных слов точные инструменты, с помощью которых вы сможете достичь своих целей.
-                                p Эта книга поможет вам сэкономить время, которое вы ежедневно тратите на коммуникацию. Вы научитесь быстрее находить смысл в словах собеседника, и формулировать свои мысли таким образом, чтобы вас понимали однозначно.
-                                p Мы живем в таком мире, где неточное отношение к словам всё еще общепринято. Значит, у вас есть возможность быть в числе первых, кто получит преимущество. 
+                                p Лингвистический интеллект – это книга о том, как сделать из обычных слов точные инструменты, с помощью которых вы сможете достичь своих целей. Эта книга поможет вам сэкономить время, которое вы ежедневно тратите на коммуникацию. Вы научитесь быстрее находить смысл в словах собеседника, и формулировать свои мысли таким образом, чтобы вас понимали однозначно. Мы живем в таком мире, где неточное отношение к словам всё еще общепринято. Значит, у вас есть возможность быть в числе первых, кто получит преимущество. 
                                 
 
                             .right__descriptionbottom
@@ -33,7 +31,7 @@ block content
                                     span Цена: 
                                         span
                                             | 300 грн.
-                                    .button(type="button") 
+                                    .button.elem#btn1(type="button") 
                                         span Заказать
                                 .right__right
                                     .slider 
@@ -61,7 +59,7 @@ block content
                                                     //- .swiper-pagination
                                                 .swiper-slide
                                                     .slider__title
-                                                        p Для менеджеров по продажам
+                                                        p Для sales менеджеров
                                                     .slider__text
                                                         p Клиенты не покупают, если мы не смогли их заинтересовать. Эта книга поможет вам быстро находить смысл в словах собеседника и создавать формулировки, точно передающие то, что вы на самом деле хотели сказать.
                                                     //- ol.slider__list
@@ -95,7 +93,7 @@ block content
                             .blockorder__icn
                                 img(src="./images/iconorder.png", alt="")
                             .blockorder__button
-                                button
+                                button#btn2
                                     span Заказать
 
                         .img1
@@ -104,6 +102,17 @@ block content
                             img(src="./images/img2.png", alt="")
                         .clock
                             img(src="./images/clock.png", alt="") 
+                            .tooltip1  
+                                .tooltip1__arrow
+                                    p «
+                                .tooltip1__top
+                                    p «Два раза в неделю, в одном и том же кафе, в 9:30, мы завтракали, спорили, обсуждали определения и как это можно использовать. Все эти два года, с 9:30 до 11:30 у меня в календаре было записано: “Работа над книгой”. Летом или зимой, в 9:30 я уже был на месте. У Сергея был план встречи, он задавал вопросы, мы их обсуждали.»
+                                .tooltip1__bottom
+                                    .foto
+                                        
+                                    .desc
+                                        p Феликс Морозовский
+                                        p —  автор
                         .shadowclock
                             img(src="./images/shadowclock.png", alt="")
                                         
@@ -148,7 +157,7 @@ block content
                             .blockorder__icn
                                 img(src="./images/iconorder.png", alt="")
                             .blockorder__button
-                                button
+                                button#btn3
                                     span Заказать
 
                         .img1
@@ -157,6 +166,16 @@ block content
                             img(src="./images/img2.png", alt="")
                         .dictaphone
                             img(src="./images/dictaphone.png", alt="")
+                            .tooltip1.tooltip2
+                                .tooltip1__arrow
+                                    p «
+                                .tooltip1__top
+                                    p «Первые шесть месяцев работы, каждую нашу встречу с Феликсом я записывал на диктофон. Затем, несколько часов я тратил на то, чтобы послушать всё это еще раз и выписать то, что можно было использовать в книге. На диктофоне сохранилось примерно 100 часов наших с Феликсом диалогов. Все эти диалоги стали основой, из которых появилась книга.»
+                                .tooltip1__bottom
+                                    .foto.foto_bg2
+                                    .desc
+                                        p Сергей Соловьев 
+                                        p —  автор
                     include ../common/footer.pug
                 
                                                                            
@@ -170,7 +189,7 @@ block content
                                     img(src="./images/foto4.png", alt="")
                                 .blockitem__text
                                     p Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. 
-                                .blockitem__name
+                                .blockitem__name.elem
                                     p Ольга
                                 .blockitem__description 
                                     p фотограф, 29 лет
@@ -189,7 +208,7 @@ block content
                             .blockorder__icn
                                 img(src="./images/iconorder.png", alt="")
                             .blockorder__button
-                                button
+                                button#btn4
                                     span Заказать
 
                         .img1
@@ -198,6 +217,17 @@ block content
                             img(src="./images/img2.png", alt="")
                         .notes
                             img(src="./images/notes.png", alt="")
+                            .tooltip1.tooltip3
+                                .tooltip1__arrow
+                                    p «
+                                .tooltip1__top
+                                    p «Расшифровка диалогов превратилась примерно в 1000 разрозненных страниц черновиков, из которых должна была появиться книга. На поиск нужной формы ушел примерно год. Появилась структура, оглавление, черновик книги. Из черновиков было убрано всё лишнее. Объем черновика сократился до 200, потом до 120 страниц.
+                                    p Книга не обязательно должна быть объемной, но обязательно должна быть полезной и понятно для читателя. Чтобы объяснить сложные вещи простыми словами, много слов не нужно.»
+                                .tooltip1__bottom
+                                    .foto.foto_bg2
+                                    .desc
+                                        p Сергей Соловьев 
+                                        p —  автор
                     include ../common/footer.pug
             
                                                                                     
@@ -211,12 +241,96 @@ block content
                             .blockorder__icn
                                 img(src="./images/iconorder.png", alt="")
                             .blockorder__button
-                                button
+                                button#btn5
                                     span Заказать
 
                         .img1
                             img(src="./images/img1.png", alt="")
                         .img2
                             img(src="./images/img2.png", alt="")
+                        .coffee
+                            img(src="./images/coffee.png", alt="")
+                            .tooltip1.tooltip4.tooltip2
+                                .tooltip1__arrow
+                                    p «
+                                .tooltip1__top
+                                    p «Я посчитал, что мы выпили 384 чашки кофе во время наших утренних встреч. Иногда, к нашей встрече присоединились друзья и знакомые, которым было интересно над чем мы работаем. В какой-то момент, всё это превратилось в небольшой клуб людей, которым интересно позавтракать вместе, выпить чашечку кофе и обсудить новую главу книги. .»
+                                .tooltip1__bottom
+                                    .foto
+                                        
+                                    .desc
+                                        p Феликс Морозовский
+                                        p —  автор
                     include ../common/footer.pug
+            include ../common/popap.pug
+
+
+            script.
+                const btn1 = document.getElementById('btn1');
+                const btn2 = document.getElementById('btn2');
+                const btn3 = document.getElementById('btn3');
+                const btn4 = document.getElementById('btn4');
+                const btn5 = document.getElementById('btn5');
+                const btn_submit = document.getElementById('btn_submit');
+                const btn_ok = document.getElementById('btn_ok');
+                const openmodal1 = document.getElementById('openmodal1');
+                const openmodal2 = document.getElementById('openmodal2');
+                const close1 = document.getElementById('close1');
+                const close2 = document.getElementById('close2');
+
+
+                btn1.addEventListener('click', function () {
+                    openmodal1.classList.add('popapwrapblockvisibke')
+                });
+
+                btn2.addEventListener('click', function () {
+                    openmodal1.classList.add('popapwrapblockvisibke')
+                });
+
+                btn3.addEventListener('click', function () {
+                    openmodal1.classList.add('popapwrapblockvisibke')
+                });
+
+                btn4.addEventListener('click', function () {
+                    openmodal1.classList.add('popapwrapblockvisibke')
+                });
+
+                btn5.addEventListener('click', function () {
+                    openmodal1.classList.add('popapwrapblockvisibke')
+                });
+
+                btn_submit.addEventListener('click', function () {
+                    //- event.preventDefault();
+                    //- openmodal2.classList.add('popapwrapblockvisibke');
+                    //- openmodal1.classList.remove('popapwrapblockvisibke')
+                });
+
+                btn_ok.addEventListener('click', function () {
+                    openmodal2.classList.remove('popapwrapblockvisibke')
+                });
+
+                close1.addEventListener('click', function () {
+                    openmodal1.classList.remove('popapwrapblockvisibke');
+                });
+
+                close2.addEventListener('click', function () {
+                    openmodal2.classList.remove('popapwrapblockvisibke');
+                });
+
+
+                //- $(document).ready (function ( ) {
+
+                //-     $('.elem').click(function() {
+                //-         //- $('.popapwrapblock').fadeIn(300);
+                //-         $('body').css('overflow','hidden');
+                //-         $('.elem').css('color','red');
+                //-     });
+            
+                //-     $('.popap-close').click(function(){
+                //-         $('.popapwrapblock').css('display', 'none');
+                //-         $('body').css('overflow','visible');
+                //-     });
+
+                //- });
+                
             

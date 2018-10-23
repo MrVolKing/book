@@ -25,10 +25,10 @@
 // }
 
 .wrapper{
-    width: 1362px;
-    height: 857px;
-    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
+    width: em(1362);
+    height: em(857);
+    box-shadow: 0 em(30) em(50) rgba(0, 0, 0, 0.15);
+    border-radius: em(20);
     background-color: #ffffff;
     position: relative;
 }

@@ -23,17 +23,17 @@
 
                     // adapt menu
 
-{
+// {
     
-    var btnadapt  = document.getElementById('btnadapt'); 
-    var close = document.getElementById('close');
-    var adaptmenu = document.getElementById('adaptmenu');
+//     var btnadapt  = document.getElementById('btnadapt'); 
+//     var close = document.getElementById('close');
+//     var adaptmenu = document.getElementById('adaptmenu');
 
-    btnadapt.addEventListener('click', function () {
-        adaptmenu.classList.add('visibladaptmenu');
-    });
+//     btnadapt.addEventListener('click', function () {
+//         adaptmenu.classList.add('visibladaptmenu');
+//     });
 
-    close.addEventListener('click', function () {
-        adaptmenu.classList.remove('visibladaptmenu');
-    });
-}
+//     close.addEventListener('click', function () {
+//         adaptmenu.classList.remove('visibladaptmenu');
+//     });
+// }

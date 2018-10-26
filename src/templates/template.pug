@@ -9,8 +9,8 @@ html
         meta(content="" name="keywords")
         meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
         meta(content="ie-edge" http-equiv="x-ua-compatible")
-        link(rel="stylesheet", href="./styles/app.min.css?2")
-        script(src='./scripts/app.js?2' defer)
+        link(rel="stylesheet", href="./styles/app.min.css?3")
+        script(src='./scripts/app.js?3' defer)
         //- <script src="./dist/js/jquery1-3.2.1.min.js?1"></script> 
 
 
@@ -19,8 +19,8 @@ html
         //-   <link rel="stylesheet" href="./dist/css/slick-theme.css?1">
 
         
-        <link rel="stylesheet" href="./dist/css/swiper.css?2">
-        <script src="./dist/js/swiper.min.js?2"></script>
+        <link rel="stylesheet" href="./dist/css/swiper.css?3">
+        <script src="./dist/js/swiper.min.js?3"></script>
 
         //- <link rel="stylesheet" href="./dist/css/photoswipe.css?1">
         //- <link rel="stylesheet" href="./dist/css/default-skin.css?1">
@@ -35,49 +35,54 @@ html
         //- <script src="./dist/js/main.js?1"></script> 
 
 
+        script(src='./dist/js/scrolloverflow.min.js?3')
+        script(src='./dist/js/fullpage.js?3')
+
+
         
         
     
     body
         block content
+            
 
             script.
 
-                //- $(document).ready(function() {
-                //-     if ($(document).width() > 1350) {
-                //-         new fullpage('#fullpage', {
-                //-             licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-                //-             scrollOverflow: true,
-                //-             anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
-                //-             navigationTooltips: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
-                //-         });
-                //-     };
+                $(document).ready(function() {
+                    if ($(document).width() > 1350) {
+                        new fullpage('#fullpage', {
+                            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+                            scrollOverflow: true,
+                            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+                            navigationTooltips: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+                        });
+                    };
 
-                //-     $('#footer__arrow').on('click', () => {
-                //-         fullpage_api.moveSectionDown();
-                //-     });
-                //-     $('#firstPage').on('click', () => {
-                //-         fullpage_api.moveTo(1);
-                //-     });
-                //-     $('#secondPage').on('click', () => {
-                //-         fullpage_api.moveTo(2);
-                //-     });
-                //-     $('#thirdPage').on('click', () => {
-                //-         fullpage_api.moveTo(3);
-                //-     });
-                //-     $('#fourthPage').on('click', () => {
-                //-         fullpage_api.moveTo(4);
-                //-     });
-                //-     $('#fifthPage').on('click', () => {
-                //-         fullpage_api.moveTo(5);
-                //-     });
-                //-     $('#sixthPage').on('click', () => {
-                //-         fullpage_api.moveTo(6);
-                //-     });
-                //-     $('#seventhPage').on('click', () => {
-                //-         fullpage_api.moveTo(7);
-                //-     });
+                    $('#footer__arrow').on('click', () => {
+                        fullpage_api.moveSectionDown();
+                    });
+                    $('#firstPage').on('click', () => {
+                        fullpage_api.moveTo(1);
+                    });
+                    $('#secondPage').on('click', () => {
+                        fullpage_api.moveTo(2);
+                    });
+                    $('#thirdPage').on('click', () => {
+                        fullpage_api.moveTo(3);
+                    });
+                    $('#fourthPage').on('click', () => {
+                        fullpage_api.moveTo(4);
+                    });
+                    //- $('#fifthPage').on('click', () => {
+                    //-     fullpage_api.moveTo(5);
+                    //- });
+                    //- $('#sixthPage').on('click', () => {
+                    //-     fullpage_api.moveTo(6);
+                    //- });
+                    //- $('#seventhPage').on('click', () => {
+                    //-     fullpage_api.moveTo(7);
+                    //- });
 
 
 
-                //- });
+                });

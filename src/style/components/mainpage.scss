@@ -98,12 +98,13 @@ button{
     left: em(45);
     top: em(254);
     background-color: $white;
-    width: em(421);
-    height: em(284);
+    width: em(721);
+    // height: em(284);
     position: absolute;
     border-radius: em(20);
     box-shadow: 0 em(15) em(25) rgba(0, 0, 0, 0.15);
     &__arrow{
+        display: none;
         position: absolute;
         top: em(17);
         left: em(2);
@@ -117,11 +118,11 @@ button{
         }
     }
     &__top{
-        line-height: em(20);
+        line-height: em(22);
         p{
             color: #303030;
             font-family: muller;
-            font-size: em(15);
+            font-size: em(18);
             font-weight: 400;
 
         }
@@ -170,6 +171,10 @@ button{
     position: absolute;
     z-index: 3;
     height: auto;
+
+    left: em(-284);
+    top: 0;
+    width: em(318);
 }
 
 .tooltip2:after{
@@ -177,13 +182,17 @@ button{
     position: absolute;
     top: em(-17);
     left: em(326);
+
+    top: em(84);
+    left: em(308);
+    transform: rotate(90deg);
 }
 
 .tooltip3{
     height: auto;
     position: absolute;
     z-index: 3;
-    top: em(250);
+    top: em(62);
     left: em(150);
 }
 
@@ -191,7 +200,7 @@ button{
     content: url(../images/arrow-navigate-close.png);
     position: absolute;
     left: em(-13);
-    top: em(70);
+    top: em(239);
     transform: rotate(-90deg);
 
 }
@@ -199,6 +208,7 @@ button{
 .tooltip4{
     top: em(200);
     left: em(-114);
+    width: em(421);
 }
 
 
@@ -227,20 +237,22 @@ button{
             padding-right: em(40);
             width: em(700);
             &__title{
-                padding-right: em(330);
+                margin-right: em(247);
+                margin-top: em(-19);
+                // padding-right: em(330);
                 margin-bottom: em(14);
                 text-align: center;
-                line-height: em(36);
+                line-height: em(50);
                 p{
                     color: #303030;
-                    font-size: em(36);
+                    font-size: em(52);
                     font-weight: 700;
                     
                 }
             }
             &__minititle{
                 margin-bottom: em(51);
-                margin-top: em(40);
+                margin-top: em(34);
                 p{
                     color: #90979e;
                     font-size: em(22);
